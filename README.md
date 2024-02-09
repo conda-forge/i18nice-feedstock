@@ -9,6 +9,11 @@ Package license: MIT
 
 Summary: Translation library for Python
 
+This library provides i18n functionality for Python 3 out of the box.
+The usage is mostly based on Rails i18n library.
+See https://github.com/Krutyi-4el/i18nice/blob/master/README.md for details.
+
+
 Current build status
 ====================
 
