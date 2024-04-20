@@ -1,5 +1,5 @@
 {% set name = "i18nice" %}
-{% set version = "0.13.2" %}
+{% set version = "0.13.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/i18nice-{{ version }}.tar.gz
-  sha256: 775fb77ca4bac29d15bb5c928584a1ba6e3a66dc7343ab36aba1326c4c3c24de
+  sha256: dae765b9b84025c0c1f4e64e93d679d20af8bc7879d1d41eb5381f9c7f148111
 
 build:
   noarch: python
@@ -30,7 +30,7 @@ test:
     - pip
 
 about:
-  home: https://github.com/Krutyi-4el/i18nice
+  home: https://github.com/solaluset/i18nice
   summary: Translation library for Python
   description: |
     This library provides i18n functionality for Python 3 out of the box.
