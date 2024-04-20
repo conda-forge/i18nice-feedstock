@@ -30,7 +30,7 @@ test:
     - pip
 
 about:
-  home: https://github.com/Krutyi-4el/i18nice
+  home: https://github.com/solaluset/i18nice
   summary: Translation library for Python
   description: |
     This library provides i18n functionality for Python 3 out of the box.
