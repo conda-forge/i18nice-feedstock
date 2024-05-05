@@ -3,7 +3,7 @@ About i18nice-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/i18nice-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/Krutyi-4el/i18nice
+Home: https://github.com/solaluset/i18nice
 
 Package license: MIT
 
