@@ -1,5 +1,5 @@
 {% set name = "i18nice" %}
-{% set version = "0.15.0" %}
+{% set version = "0.15.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/i18nice-{{ version }}.tar.gz
-  sha256: a186445e7d635b8ceb5e80fbcdde85f3914b2f6d1407bb40dc1ef50699839042
+  sha256: f9b770abcd381f2b13cff538e1938251f10fcedf8ff75828a3ce933c55c7e8ae
 
 build:
   noarch: python
