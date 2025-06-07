@@ -1,6 +1,6 @@
 {% set name = "i18nice" %}
-{% set version = "0.15.5" %}
-{% set python_min = "3.7" %}
+{% set version = "0.16.0" %}
+{% set python_min = "3.8" %}
 
 package:
   name: {{ name|lower }}
@@ -8,12 +8,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/i18nice-{{ version }}.tar.gz
-  sha256: 28fa4563390116dd6b16f638c400595d35ce55cd35486dd743daa8a3d31b7d2c
+  sha256: 8e90d042436f4bf0cdf9ab6869eb70946eba094f58121020c350996e45b0be89
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 1
+  number: 0
 
 requirements:
   host:
